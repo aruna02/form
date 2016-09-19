@@ -35,7 +35,7 @@
 		Mobile No  : <input type="integer" name="mobile" id="mobile" placeholder="enter your mobile no" size="30"> 
 		<p id="error_mobile" class="alert-default" > </p><br>
 		Address    : <input type="text" name="Address" size="30" id="Adress" placeholder="enter your address" size="30"><p id="error_address" class="alert-default" > </p><br>
-		Hobby	   : Singing <input type="checkbox" name="hobby" id="Singing" value="singing" name="hobby">       Dancing <input type="checkbox" name="hobby" id="hobby" value="Dancing">   	Playing <input type="checkbox" value="Playing" name="hobby" id="playing" >       None    <input type="checkbox" name="hobby" id="none" value="None">     <p id="error_hobby" class="alert-default" ></p><br> 
+		Hobby	   : Singing <input type="checkbox" name="hobby" id="Singing" value="singing" name="hobby">       Dancing <input type="checkbox" name="hobby" id="hobby" value="dancing">   	Playing <input type="checkbox" value="playing" name="hobby" id="playing" >       None    <input type="checkbox" name="hobby" id="none" value="none">     <p id="error_hobby" class="alert-default" ></p><br> 
 		About : <textarea rows="5" cols="40"  maxlength="100" id="About" placeholder="write about you" name="About"></textarea>    <p id="error_about" class="alert-default" ></p><br>
 		<!-- <button type="submit" size="30" value="submit" >submit</button> -->
 	<input name="submit" type="submit" value="submit" class="btn btn-default"/>

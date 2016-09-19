@@ -1,3 +1,19 @@
+<script>
+ function on_delete() {
+
+     if(confirm("Do you want do delete this cookie") ==  true){
+	 location.href= './delete.php?id=<?php echo $key; ?>';
+     }
+     else {
+	 location.href= './list.php';
+     }
+ }
+
+</script>
+
+
+
+
 <?php
 
 if(isset($_COOKIE['userinfo']))
@@ -41,7 +57,7 @@ if(isset($_COOKIE['userinfo']))
 		    <td><?php echo $info['Address']; ?></td>
 		    <td><?php echo $info['hobby']; ?></td>
 		    <td><?php echo $info['About']; ?></td>
-		    <td><a href="./delete.php?id=<?php echo $key; ?>">Delete</a><?php ?> | 
+		    <td><a onclick="return on_delete();" href="./delete.php?id=<?php echo $key; ?>">Delete</a>| 
 			<a href="./edit.php?id=<?php echo $key; ?>" >Edit</a></td>
 		</tr>		
 	    <?php	}
