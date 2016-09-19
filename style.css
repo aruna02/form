@@ -1,6 +1,12 @@
-form,pre{
+body {
 
-	background-color:white;
+    
+}
+
+
+form,pre{
+    background-image: url("./pic.JPG") ;
+//	background-color:white;
 	font-size: 15px;
 	font-family: monospace;
 	color: blue;
