@@ -9,16 +9,17 @@
 if (isset($input_records)){
     $record = array();
     $record['fname'] = $_POST['fName'];
-     $record['Mname'] = $_POST['Mname'];
-     $record['lname'] = $_POST['lname'];
-     $record['Age'] = $_POST['Age'];
+    $record['Mname'] = $_POST['Mname'];
+    $record['lname'] = $_POST['lname'];
+    $record['Age'] = $_POST['Age'];
     $record['email'] = $_POST['email'];
     $record['mobile'] = $_POST['mobile'];
     $record['Gender'] = $_POST['Gender'];
     $record['Address'] = $_POST['Address'];
     $record['hobby'] = $_POST['hobby'];
     $record['About'] = $_POST['About'];
-    
+    $records = array();
+    $id = $_POST['id'];
     #$records = array();
     # $records = $record;
     
@@ -29,10 +30,12 @@ if (isset($input_records)){
  if(isset($_COOKIE['userinfo'])) {
 
      $records = json_decode($_COOKIE['userinfo'],true);
-     $records[] = $record;
- }
+     if (isset($id)) {
+              $records[$id] = $record;
+     }
  else {
      $records[] = $record;
+ }
  }
 
 
