@@ -17,7 +17,7 @@
 		
 		Middle Name: <input type="text" name="Mname" id="Mname" placeholder="enter middle name" size="30">    <p id="error_mname" class="alert-default" > </p><br>
 
-		Last Name  : <input type="text" name="lname" size="30" id="Lname" placeholder="enter your last name" ><br> <p id="error_lname" class="alert-default" > </p>
+		LastName  : <input type="text" name="lname" size="30" id="Lname" placeholder="enter your last name" ><br> <p id="error_lname" class="alert-default" > </p>
 		
 		Age        : <input type="number" name="Age" max="100" size="30" min="0" id="Age" placeholder="age" value="age"><br>      <p id="error_age" class="alert-default" > </p> <br/>
 		Gender     : Male  <input type="radio" name="Gender"  id="Gender" value="Male" />  Female  <input type="radio" name="Gender" value="Female" /> <p id="error_gender" class="alert-default"  > </p> <br>
