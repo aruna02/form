@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>           <h1> personal information</h1>
+    <head>           
 
 	<title> form</title>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<script type="text/javascript" src="./script.js"></script>
     </head>
-    <body>
+    <body><fieldset><legend>Personal Information
 	<form onsubmit="return validation();" method="post" name="myForm" action="process.php"> 
 	
 	    <pre>	<fieldset>
@@ -39,9 +39,9 @@
 		About : <textarea rows="5" cols="40"  maxlength="100" id="About" placeholder="write about you" name="About"></textarea>    <p id="error_about" class="alert-default" ></p><br>
 		<!-- <button type="submit" size="30" value="submit" >submit</button> -->
 	<input name="submit" type="submit" value="submit" class="btn btn-default"/>
-		</fieldset>
+		</legend></fieldset>
 	    </pre>
-	</form> </body>
+	</form> </fieldset></body>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 

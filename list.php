@@ -1,4 +1,6 @@
-<script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script>
  function on_delete() {
 
      if(confirm("Do you want do delete this cookie") ==  true){
@@ -19,16 +21,16 @@
 if(isset($_COOKIE['userinfo']))
    {
        $userINFOs = json_decode($_COOKIE['userinfo'],true);
-     # print_r($userINFOs);
+     #print_r($userINFOs);
        
    }
 
 ?>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<table class="table">
+<table class="table table-bordered">
 	  
-	    <tr>
+	    <tr class="info">
 		<th>S.No</th>
 		<th>fname</th>
 		<th>Mname</th>
@@ -69,3 +71,4 @@ if(isset($_COOKIE['userinfo']))
 
 
 
+<a href="index.php" type="button" class="btn btn-info">back</a>
