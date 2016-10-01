@@ -60,7 +60,7 @@ if(isset($_COOKIE['userinfo']))
 		    <td><?php echo $info['hobby']; ?></td>
 		    <td><?php echo $info['About']; ?></td>
 		    <td><a onclick="return on_delete();" href="./delete.php?id=<?php echo $key; ?>">Delete</a>| 
-			<a href="./edit.php?id=<?php echo $key; ?>" >Edit</a></td>
+			<a href="./editt.php?id=<?php echo $key; ?>" >Edit</a></td>
 		</tr>		
 	    <?php	}
 	    }
@@ -70,5 +70,12 @@ if(isset($_COOKIE['userinfo']))
 
 
 
+<div class="btn-group btn-group-lg">
+	<div class="form-group">
+	<div class="col-sm-offset-1 col-sm-17">
+<a href="form.php" type="button" class="btn btn-info">back</a>    
 
-<a href="index.php" type="button" class="btn btn-info">back</a>
+<div class="btn-group btn-group-lg">
+	<div class="form-group">
+	<div class="col-sm-offset-11 col-sm-17">
+<a href="signout.php" type="button" class="btn btn-info">signout</a><br>

@@ -11,10 +11,10 @@ define(name, aruna);
 define(password, aruna);
 if($_SESSION['name']==name && $_SESSION['password']==password)
 {
-	header('location:index.php');
+	header('location:form.php');
 }
 else
-{	header('location:login.php');
+{	header('location:index.php');
 }
 /*}
 */
