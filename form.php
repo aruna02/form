@@ -14,7 +14,7 @@
 	<form onsubmit="return validation();" method="post" name="myForm" action="process.php"> 
 	
 	    <pre>	<fieldset>
-	    <a href="signout.php" type="button" class="btn btn-info">signout</a><br>
+	    
 		First Name : <input type="text" name="fName" id="fname" size="30" placeholder="enter firstname"><p id="error_fname" class="alert-default" > </p>
 		Middle Name: <input type="text" name="Mname" id="Mname" placeholder="enter middle name" size="30">    <p id="error_mname" class="alert-default" > </p>
 		LastName  : <input type="text" name="lname" size="30" id="Lname" placeholder="enter your last name" > <p id="error_lname" class="alert-default" > </p>
