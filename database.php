@@ -4,7 +4,7 @@
 
 	$server = "localhost";
 	$user = "root";
-	$password = "google";
+	$password = "root";
 	$dbname = "students";
 
 	$connection = mysqli_connect($server, $user, $password, $dbname);
