@@ -1,0 +1,27 @@
+form,pre{
+	background-color:white;
+	font-size: 15px;
+	font-family: monospace;
+}	
+ 
+body {
+	color: brown;
+}
+
+.btn-default{
+    color: brown;
+    
+}
+
+p {
+        float: right;
+	color: red;
+	font-size: 20px;
+}
+
+#error {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 400px;
+    margin-right: 20px;
+}
